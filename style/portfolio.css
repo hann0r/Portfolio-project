@@ -1,0 +1,11 @@
+body {
+  background-color: #1b1b1b;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#f65282, #ac97ea, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

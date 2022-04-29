@@ -8,14 +8,13 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 60px;
   display: inline-block;
   background: -webkit-linear-gradient(#00ccff, #ac97ea, #d400d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-bottom: 300px;
 }
 .icon {
   display: inline-block;
@@ -53,8 +52,8 @@ h1 {
 }
 .box {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 285px;
+  height: 285px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   overflow: hidden;
@@ -119,7 +118,7 @@ h1 {
 
 .content h2 {
   position: relative;
-  font-size: 32px;
+  font-size: 20px;
   text-align: center;
   color: #fff;
   font-weight: 600;
@@ -129,16 +128,16 @@ h1 {
 
 .content h2 span {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 15px;
 }
 .content a {
   position: relative;
   padding: 10px 20px;
   background-color: white;
   color: black;
-  border-radius: 25px;
+  border-radius: 20px;
   font-weight: 501;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
@@ -162,4 +161,8 @@ h1 {
 .hero {
   margin-left: 500px;
   margin-top: -80px;
+}
+.float-sm-start {
+  justify-content: flex;
+  margin-left: -400px;
 }

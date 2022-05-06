@@ -8,13 +8,14 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 32px;
   display: inline-block;
   background: -webkit-linear-gradient(#00ccff, #ac97ea, #d400d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-left: 30px;
-  margin-bottom: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 .icon {
   display: inline-block;
@@ -23,7 +24,9 @@ h1 {
   margin-top: 600px;
   margin-left: -200px;
 }
-
+.icons-wrapper {
+  margin-top: 300px;
+}
 .ri-instagram-line {
   background: radial-gradient(
     circle at 30% 107%,
@@ -111,7 +114,9 @@ h1 {
   pointer-events: none;
   z-index: 3;
 }
-
+.col-5 {
+  margin-left: 140px;
+}
 .box:hover .content img {
   opacity: 0;
 }
@@ -160,9 +165,26 @@ h1 {
 }
 .hero {
   margin-left: 500px;
-  margin-top: -80px;
+  margin-top: -400px;
+  vertical-align: top;
+  display: inline-block;
 }
 .float-sm-start {
   justify-content: flex;
   margin-left: -400px;
+}
+p {
+  color: white;
+  margin-top: 150px;
+  display: inline-block;
+  padding: 20px;
+}
+h3 {
+  color: white;
+}
+.btn-projects {
+  color: white;
+  box-shadow: 5px 5px 5px black;
+  border-color: black;
+  border-radius: 20px;
 }

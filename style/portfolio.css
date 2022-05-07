@@ -25,7 +25,8 @@ h1 {
   margin-left: -200px;
 }
 .icons-wrapper {
-  margin-top: 300px;
+  margin-top: 200px;
+  margin-left: 100px;
 }
 .ri-instagram-line {
   background: radial-gradient(
@@ -115,7 +116,7 @@ h1 {
   z-index: 3;
 }
 .col-5 {
-  margin-left: 140px;
+  margin-left: 150px;
 }
 .box:hover .content img {
   opacity: 0;

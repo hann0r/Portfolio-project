@@ -1,0 +1,88 @@
+body {
+  background-color: #1b1b1b;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  display: inline-block;
+  background: -webkit-linear-gradient(#00ccff, #ac97ea, #d400d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  background-color: #282323;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 500px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 530px;
+}
+img {
+  margin-left: 620px;
+  margin-top: 20px;
+  max-width: 250px;
+}
+.container {
+  white-space: nowrap;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left: -190px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+}
+.images {
+  margin-left: -250px;
+}
+.profilepic {
+  max-width: 100% !important;
+}
+@media screen and (max-width: 500px) {
+  h2 {
+    margin-left: 100px;
+  }
+  p {
+    margin-left: 35px;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 2;
+    max-width: 300px;
+  }
+  .profilepic {
+    margin-left: 35px;
+  }
+  .column {
+    width: 100%;
+    align-items: center;
+    margin-left: -300px;
+  }
+  .dog {
+    margin-left: 590px;
+  }
+  .poem {
+    margin-left: 590px;
+  }
+  .guitar {
+    margin-left: 590px;
+  }
+}

@@ -20,6 +20,9 @@ h2 {
   margin-bottom: 50px;
 }
 p {
+  font-family: "Montserrat", sans-serif;
+}
+.bordered-text {
   text-align: center;
   background-color: #282323;
   color: #fff;
@@ -79,6 +82,7 @@ img {
   margin-top: 50px;
   max-width: 700px;
   margin-left: 700px;
+  font-family: "Montserrat", sans-serif;
 }
 .view-projects img {
   max-width: 500px;
@@ -91,7 +95,19 @@ img {
   .hobbies-title {
     margin-left: 75px;
   }
+  .project-title {
+    margin-left: 15px;
+    font-size: 40px;
+  }
   p {
+    margin-left: 35px;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 2;
+    max-width: 300px;
+  }
+  .bordered-text {
     margin-left: 35px;
     text-align: center;
     padding: 5px;
@@ -101,6 +117,9 @@ img {
   }
   .profilepic {
     margin-left: 35px;
+  }
+  .btn-projects {
+    margin-left: 100px;
   }
   .column {
     width: 100%;
@@ -115,5 +134,17 @@ img {
   }
   .guitar {
     margin-left: 630px;
+  }
+  .passion-app {
+    margin-left: 25px !important;
+    max-width: 300px !important;
+  }
+  .weather-app {
+    margin-left: 25px !important;
+    max-width: 300px !important;
+  }
+  .dictionary-app {
+    margin-left: 25px !important;
+    max-width: 300px !important;
   }
 }

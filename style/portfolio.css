@@ -19,6 +19,7 @@ h1 {
 }
 .view-projects img {
   max-width: 500px;
+  margin-left: -450px;
 }
 .heading {
   margin-top: -100px;
@@ -33,7 +34,7 @@ h1 {
 }
 .icons-wrapper {
   margin-top: 500px;
-  margin-left: 100px;
+  margin-left: -350px;
 }
 .ri-instagram-line {
   background: radial-gradient(
@@ -197,10 +198,11 @@ h3 {
   border-radius: 20px;
   margin-top: 100px;
   font-family: "Montserrat", sans-serif;
+  margin-left: -275px;
 }
 @media (max-width: 600px) {
   .col-12 {
-    margin-left: 10px;
+    margin-left: -100px;
     margin-top: 700px;
   }
   .heading {
@@ -212,28 +214,38 @@ h3 {
     margin-top: 10px;
   }
   .col-3 {
-    margin-left: 75px;
+    margin-left: 20px;
     margin-top: -250px;
   }
   .col-12 a {
-    margin-left: -290px;
+    margin-left: -230px;
   }
   .view-projects img {
     margin-top: -190px;
-    margin-left: -330px;
+    margin-left: -260px;
     max-width: 200px;
     display: flex;
   }
+  .passion-app img {
+    margin-left: -315px !important;
+  }
+  .weather-app img {
+    margin-left: -315px !important;
+  }
+  .dictionary-app img {
+    margin-left: -315px !important;
+    margin-bottom: 60px !important;
+  }
   .instagram {
-    margin-left: -30px;
+    margin-left: 220px !important;
   }
   .facebook {
-    margin-left: 70px;
+    margin-left: 220px !important;
   }
   .whatsapp {
-    margin-left: 80px;
+    margin-left: 220px !important;
   }
   .github {
-    margin-left: 80px;
+    margin-left: 10px !important;
   }
 }

@@ -17,15 +17,21 @@ h1 {
   overflow: hidden;
   text-overflow: clip;
 }
+.view-projects img {
+  max-width: 500px;
+}
+.heading {
+  margin-top: -100px;
+}
 .icon {
   display: inline-block;
-  font-size: 44px;
+  font-size: 30px;
   animation: float 3s ease-in-out infinite;
   margin-top: 600px;
   margin-left: -200px;
 }
 .icons-wrapper {
-  margin-top: 200px;
+  margin-top: 500px;
   margin-left: 100px;
 }
 .ri-instagram-line {
@@ -188,4 +194,44 @@ h3 {
   box-shadow: 5px 5px 5px black;
   border-color: black;
   border-radius: 20px;
+  margin-top: 100px;
+}
+@media (max-width: 600px) {
+  .col-12 {
+    margin-left: 10px;
+    margin-top: 700px;
+  }
+  .heading {
+    margin-left: -300px;
+    margin-top: -1000px;
+  }
+  .btn {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .col-3 {
+    margin-left: 75px;
+    margin-top: -250px;
+  }
+  .col-12 a {
+    margin-left: -290px;
+  }
+  .view-projects img {
+    margin-top: -190px;
+    margin-left: -330px;
+    max-width: 200px;
+    display: flex;
+  }
+  .instagram {
+    margin-left: -30px;
+  }
+  .facebook {
+    margin-left: 70px;
+  }
+  .whatsapp {
+    margin-left: 80px;
+  }
+  .github {
+    margin-left: 80px;
+  }
 }

@@ -16,7 +16,7 @@ h2 {
   overflow: hidden;
   text-overflow: clip;
   margin-left: 650px;
-  margin-top: 50px;
+  margin-top: 90px;
   margin-bottom: 50px;
 }
 p {
@@ -142,6 +142,7 @@ img {
     font-size: 13px;
     line-height: 2;
     max-width: 300px;
+    margin-bottom: -200px !important;
   }
   .bordered-text {
     margin-left: 35px;
@@ -155,7 +156,8 @@ img {
     margin-left: 35px;
   }
   .btn-projects {
-    margin-left: 100px;
+    margin-left: 100px !important;
+    margin-bottom: -10px !important;
   }
   .column {
     width: 100%;
@@ -172,15 +174,15 @@ img {
     margin-left: 630px;
   }
   .passion-app {
-    margin-left: 25px !important;
+    margin-left: 10px !important;
     max-width: 300px !important;
   }
   .weather-app {
-    margin-left: 25px !important;
+    margin-left: 15px !important;
     max-width: 300px !important;
   }
-  .passion-app {
-    margin-left: 25px !important;
+  .dictionary-app {
+    margin-left: 10px !important;
     max-width: 300px !important;
   }
 }

@@ -71,6 +71,7 @@ p {
   margin: 0 auto;
   margin-top: 40px;
   margin-left: 20px;
+  box-shadow: 5px 5px 5px black;
 }
 img {
   margin-left: 620px;
@@ -107,9 +108,10 @@ img {
 }
 .insta-logo {
   max-width: 60px;
-  margin-left: 100px !important;
-  margin-top: -5px;
+  margin-left: -70px !important;
+  margin-top: 10px;
   margin-right: -20px;
+  margin-bottom: 10px;
 }
 .git-logo {
   max-width: 90px;

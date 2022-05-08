@@ -168,7 +168,7 @@ img {
     margin-bottom: 15px;
   }
   .project-title {
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 40px;
   }
   .contact-title {
@@ -224,7 +224,7 @@ img {
   }
   .btn-projects {
     margin-left: 100px !important;
-    margin-top: 210px !important;
+    margin-top: 50px !important;
   }
   .column {
     width: 100%;

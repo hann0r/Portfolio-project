@@ -38,6 +38,19 @@ p {
   margin-left: 565px;
   font-size: 50px;
 }
+.btn {
+  margin-left: -250px !important;
+  margin-top: 250px !important;
+  margin-bottom: 50px !important;
+}
+.logo {
+  border-radius: 500px;
+  max-width: 200px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: -80px;
+  margin-left: 50px;
+}
 img {
   margin-left: 620px;
   margin-top: 20px;
@@ -50,7 +63,10 @@ img {
   font-size: 50px;
   margin-left: 650px;
 }
-
+.contact-title {
+  font-size: 60px;
+  margin-left: 590px;
+}
 .hobbies-title {
   font-size: 50px;
   margin-left: 665px;
@@ -63,7 +79,27 @@ img {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
+.fb-logo {
+  max-width: 50px;
+  margin-left: 200px !important;
+  margin-top: -5px;
+}
+.insta-logo {
+  max-width: 60px;
+  margin-left: 620px !important;
+  margin-top: -5px;
+  margin-right: -20px;
+}
+.git-logo {
+  max-width: 90px;
+  margin-top: -5px;
+  margin-left: -230px;
+}
+.linked-logo {
+  max-width: 50px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
 .row::after {
   content: "";
   clear: both;
@@ -143,7 +179,7 @@ img {
     margin-left: 25px !important;
     max-width: 300px !important;
   }
-  .dictionary-app {
+  .passion-app {
     margin-left: 25px !important;
     max-width: 300px !important;
   }

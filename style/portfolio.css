@@ -211,7 +211,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   margin-left: -275px;
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .col-12 {
     margin-left: 60px !important;
     margin-bottom: 80px !important;

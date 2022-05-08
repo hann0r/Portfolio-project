@@ -169,7 +169,7 @@ img {
 }
 @media screen and (max-width: 500px) {
   .about-title {
-    margin-left: 55px;
+    margin-left: 35px;
   }
   .hobbies-title {
     margin-left: 75px;
@@ -177,7 +177,7 @@ img {
     margin-bottom: 15px;
   }
   .project-title {
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 40px;
   }
   .contact-title {

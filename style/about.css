@@ -39,9 +39,9 @@ p {
   font-size: 50px;
 }
 .btn {
-  margin-left: -250px !important;
-  margin-top: 250px !important;
-  margin-bottom: 50px !important;
+  margin-left: 700px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .logo {
   border-radius: 500px;
@@ -124,6 +124,9 @@ img {
   max-width: 500px;
   margin-left: 520px;
 }
+.weather-app {
+  margin-left: 10px;
+}
 @media screen and (max-width: 500px) {
   .about-title {
     margin-left: 55px;
@@ -157,7 +160,7 @@ img {
   }
   .btn-projects {
     margin-left: 100px !important;
-    margin-bottom: -10px !important;
+    margin-top: 210px !important;
   }
   .column {
     width: 100%;

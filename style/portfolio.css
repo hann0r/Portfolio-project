@@ -17,6 +17,9 @@ h1 {
   overflow: hidden;
   text-overflow: clip;
 }
+.logo1 {
+  margin-top: -550px !important;
+}
 .view-projects img {
   max-width: 500px;
   margin-left: -450px;

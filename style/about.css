@@ -82,16 +82,18 @@ img {
   white-space: nowrap;
 }
 .about-title {
-  font-size: 50px;
-  margin-left: 650px;
+  font-size: 55px;
+  margin-left: 630px;
 }
 .contact-title {
-  font-size: 60px;
-  margin-left: 590px;
+  font-size: 70px;
+  margin-left: 630px;
 }
 .hobbies-title {
   font-size: 50px;
   margin-left: 665px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 .column {
   float: left;
@@ -131,7 +133,12 @@ img {
   margin-left: -290px;
 }
 .profilepic {
-  max-width: 100% !important;
+  max-width: 300px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  border-radius: 500px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
 }
 .btn-projects {
   color: white;
@@ -174,7 +181,7 @@ img {
     font-size: 40px;
   }
   .contact-title {
-    margin-left: 22px;
+    margin-left: 75px;
     font-size: 50px;
   }
   .btn-projects-contact {

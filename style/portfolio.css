@@ -57,13 +57,9 @@ h1 {
   animation-delay: 1s;
 }
 
-.ri-whatsapp-line {
-  color: #25d366;
-  animation-delay: 2s;
-}
 .ri-github-fill {
   color: white;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 .box {
   position: relative;
@@ -257,7 +253,7 @@ h3 {
   .facebook {
     margin-left: 200px !important;
   }
-  .whatsapp {
+  .linkedin {
     margin-left: 200px !important;
   }
   .github {

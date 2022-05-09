@@ -38,8 +38,8 @@ p {
   margin-left: 530px;
 }
 .project-title {
-  margin-left: 565px;
-  font-size: 50px;
+  margin-left: 640px;
+  font-size: 60px;
 }
 .btn {
   margin-left: 700px;
@@ -170,6 +170,57 @@ img {
 .weather-app {
   margin-left: 10px;
 }
+.icon {
+  display: inline-block;
+  font-size: 30px;
+  animation: float 3s ease-in-out infinite;
+}
+.icons-wrapper {
+  margin-left: -5px;
+  margin-top: -5px;
+}
+.github-animate {
+  margin-left: 240px !important;
+  margin-top: -50px !important;
+}
+.instagram-animate {
+  margin-left: 500px !important;
+  margin-bottom: -30px !important;
+}
+.ri-instagram-line {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ri-github-fill {
+  color: white;
+  animation-delay: 2s;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.copyright {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 280px;
+}
 @media screen and (max-width: 500px) {
   .about-title {
     margin-left: 35px;
@@ -180,8 +231,8 @@ img {
     margin-bottom: 15px;
   }
   .project-title {
-    margin-left: 5px;
-    font-size: 40px;
+    margin-left: 45px;
+    font-size: 60px;
   }
   .contact-title {
     margin-left: 35px;
@@ -227,7 +278,7 @@ img {
     padding: 5px;
     font-size: 13px;
     line-height: 2;
-    max-width: 300px;
+    max-width: 350px;
   }
   .profilepic {
     margin-left: 35px;
@@ -263,5 +314,13 @@ img {
   .dictionary-app {
     margin-left: 10px !important;
     max-width: 300px !important;
+  }
+  .instagram-animate {
+    margin-left: 8px !important;
+    margin-right: 50px !important;
+  }
+
+  .copyright {
+    margin-left: 30px;
   }
 }

@@ -172,17 +172,7 @@ h1 {
 .content a:hover {
   letter-spacing: 0.2em;
 }
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
+
 .hero {
   margin-left: -50px;
   margin-top: -400px;
@@ -229,7 +219,7 @@ h3 {
   margin-bottom: -700px !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .col-12 {
     margin-left: -45px !important;
     margin-bottom: 80px !important;

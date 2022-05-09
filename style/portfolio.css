@@ -231,14 +231,22 @@ h3 {
 
 @media screen and (max-width: 600px) {
   .col-12 {
-    margin-left: 60px !important;
+    margin-left: -50px !important;
     margin-bottom: 80px !important;
     margin-top: 500px;
   }
-  .btn-projects {
+  .btn {
     margin-top: 60px;
-    margin-left: -40px !important;
-    text-align: center;
+    margin-right: 300px !important;
+  }
+  .name {
+    margin-left: -70px !important;
+  }
+  h4 {
+    margin-left: -50px !important;
+  }
+  .mt-1 {
+    margin-left: -70px !important;
   }
   .hero {
     margin-left: 650px !important;
@@ -246,8 +254,8 @@ h3 {
     margin-top: -600px !important;
   }
   .col-3 {
-    margin-left: 20px !important;
-    margin-top: -290px;
+    margin-left: -80px !important;
+    margin-top: -300px;
   }
   .col-12 a {
     margin-left: -390px !important;
@@ -268,10 +276,12 @@ h3 {
     margin-bottom: 60px !important;
   }
   .instagram {
-    margin-left: -20px !important;
+    margin-left: -90px !important;
+    margin-right: 180px !important;
   }
   .github {
-    margin-left: -100px !important;
+    margin-left: -45px !important;
+    margin-right: 60px !important;
   }
   .col-1 {
     text-align: center;

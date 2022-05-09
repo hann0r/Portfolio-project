@@ -17,6 +17,9 @@ h1 {
   overflow: hidden;
   text-overflow: clip;
 }
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+}
 .logo1 {
   margin-top: -550px !important;
 }
@@ -25,7 +28,7 @@ h1 {
   margin-left: -450px;
 }
 .heading {
-  margin-top: -100px;
+  margin-top: -30px;
   font-family: "Montserrat", sans-serif;
 }
 .icon {
@@ -36,9 +39,17 @@ h1 {
   margin-left: -200px;
 }
 .icons-wrapper {
-  margin-top: 500px;
-  margin-left: -350px;
+  margin-top: -280px !important;
+  margin-left: -5px;
+  margin-bottom: -50px;
 }
+.github {
+  margin-left: -100px !important;
+}
+.instagram {
+  margin-right: 120px !important;
+}
+
 .ri-instagram-line {
   background: radial-gradient(
     circle at 30% 107%,
@@ -50,11 +61,6 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.ri-facebook-circle-line {
-  color: #1877f2;
-  animation-delay: 1s;
 }
 
 .ri-github-fill {
@@ -100,6 +106,10 @@ h1 {
 }
 .col-12 {
   margin-left: -300px !important;
+}
+.col-3 {
+  margin-top: 150px;
+  margin-left: -25px;
 }
 .content {
   position: absolute;
@@ -203,31 +213,41 @@ h3 {
   border-color: black;
   border-radius: 20px;
   font-size: 20px;
-  margin-top: 100px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 150px;
   font-family: "Montserrat", sans-serif;
-  margin-left: -275px;
+  margin-left: -310px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+.copyright {
+  color: #fff;
+  font-size: 12px;
+  margin-left: -430px;
+  margin-top: 210px;
+  margin-bottom: -700px !important;
+}
+
 @media screen and (max-width: 600px) {
   .col-12 {
     margin-left: 60px !important;
     margin-bottom: 80px !important;
     margin-top: 500px;
   }
-  .name .heading {
-    margin-left: -200px !important;
-    margin-top: -1000px;
-  }
-  .btn {
-    margin-left: -380px !important;
-    margin-top: 10px;
+  .btn-projects {
+    margin-top: 60px;
+    margin-left: -40px !important;
+    text-align: center;
   }
   .hero {
-    margin-left: 550px !important;
-    margin-top: -700px !important;
+    margin-left: 650px !important;
+    margin-bottom: 80px;
+    margin-top: -600px !important;
   }
   .col-3 {
     margin-left: 20px !important;
-    margin-top: -350px;
+    margin-top: -290px;
   }
   .col-12 a {
     margin-left: -390px !important;
@@ -248,15 +268,12 @@ h3 {
     margin-bottom: 60px !important;
   }
   .instagram {
-    margin-left: 180px !important;
-  }
-  .facebook {
-    margin-left: 200px !important;
-  }
-  .linkedin {
-    margin-left: 200px !important;
+    margin-left: -20px !important;
   }
   .github {
-    margin-left: 60px !important;
+    margin-left: -100px !important;
+  }
+  .col-1 {
+    text-align: center;
   }
 }

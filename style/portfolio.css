@@ -44,10 +44,10 @@ h1 {
   margin-bottom: -50px;
 }
 .github {
-  margin-left: -100px !important;
+  margin-left: -50px !important;
 }
 .instagram {
-  margin-right: 120px !important;
+  margin-right: 180px !important;
 }
 
 .ri-instagram-line {
@@ -66,6 +66,17 @@ h1 {
 .ri-github-fill {
   color: white;
   animation-delay: 2s;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .box {
   position: relative;

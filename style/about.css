@@ -68,12 +68,12 @@ p {
 }
 .logo-contact {
   border-radius: 500px;
-  max-width: 190px;
+  max-width: 250px;
   display: inline-block;
   border: 2px solid black;
   margin: 0 auto;
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: -5px;
   box-shadow: 5px 5px 5px black;
 }
 img {
@@ -160,7 +160,7 @@ img {
   border-radius: 20px;
   margin-top: 50px;
   max-width: 700px;
-  margin-left: 10px;
+  margin-left: -10px;
   font-family: "Montserrat", sans-serif;
 }
 .view-projects img {
@@ -184,8 +184,8 @@ img {
     font-size: 40px;
   }
   .contact-title {
-    margin-left: 75px;
-    font-size: 50px;
+    margin-left: 35px;
+    font-size: 60px;
   }
   .btn-projects-contact {
     margin-left: -1px;
@@ -198,7 +198,7 @@ img {
     margin-top: 50px !important;
   }
   .insta-logo {
-    margin-left: -700px !important;
+    margin-left: -745px !important;
     margin-right: -190px !important;
     margin-top: 50px !important;
   }
@@ -222,7 +222,7 @@ img {
     margin-bottom: -20px !important;
   }
   .bordered-text {
-    margin-left: 35px;
+    margin-left: 12px;
     text-align: center;
     padding: 5px;
     font-size: 13px;

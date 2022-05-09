@@ -231,7 +231,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
   .col-12 {
-    margin-left: -50px !important;
+    margin-left: -45px !important;
     margin-bottom: 80px !important;
     margin-top: 500px;
   }
@@ -258,7 +258,8 @@ h3 {
     margin-top: -300px;
   }
   .col-12 a {
-    margin-left: -390px !important;
+    margin-left: -410px !important;
+    margin-right: -300px !important;
   }
   .view-projects img {
     margin-right: -100px;
@@ -281,7 +282,7 @@ h3 {
   }
   .github {
     margin-left: -45px !important;
-    margin-right: 60px !important;
+    margin-right: 50px !important;
   }
   .col-1 {
     text-align: center;

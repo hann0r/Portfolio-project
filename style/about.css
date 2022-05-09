@@ -88,6 +88,10 @@ img {
   font-size: 55px;
   margin-left: 630px;
 }
+.resume-title {
+  font-size: 70px;
+  margin-left: 630px;
+}
 .contact-title {
   font-size: 70px;
   margin-left: 630px;
@@ -97,6 +101,41 @@ img {
   margin-left: 665px;
   margin-top: 50px;
   margin-bottom: 10px;
+}
+
+.new-hope-title {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  margin-left: -250px;
+}
+.new-hope-text {
+  color: #fff;
+  text-align: left;
+  background-color: #282323;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 500px;
+  align-items: center;
+  padding: 10px;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.nhcc-logo {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+.col-sm-3 {
+  margin-top: -350px;
+  margin-left: 210px;
+}
+.col-sm-4 {
+  margin-left: 490px;
+  margin-top: -450px;
 }
 .column {
   float: left;
@@ -229,6 +268,7 @@ img {
   font-size: 12px;
   margin-left: 280px;
 }
+
 @media screen and (max-width: 500px) {
   .about-title {
     margin-left: 35px;

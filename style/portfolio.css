@@ -244,7 +244,7 @@ h3 {
   }
   .name {
     margin-left: -70px !important;
-    margin-top: -100px !important;
+    margin-top: -200px;
     margin-bottom: 40px !important;
   }
   h4 {
@@ -258,11 +258,12 @@ h3 {
   .hero {
     margin-left: 650px !important;
     margin-bottom: 80px;
-    margin-top: -600px !important;
+    margin-top: -700px !important;
   }
   .col-3 {
     margin-left: -80px !important;
-    margin-top: -300px;
+    margin-top: -140px;
+    margin-bottom: 300px;
   }
   .col-12 a {
     margin-left: -410px !important;
@@ -293,5 +294,6 @@ h3 {
   }
   .col-1 {
     text-align: center;
+    margin-top: 100px;
   }
 }

@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 40px;
   display: inline-block;
   background: -webkit-linear-gradient(#00ccff, #ac97ea, #d400d4);
   -webkit-background-clip: text;
@@ -26,6 +26,7 @@ h1 {
 .view-projects img {
   max-width: 500px;
   margin-left: -450px;
+  margin-top: 30px;
 }
 .heading {
   margin-top: -30px;
@@ -119,7 +120,7 @@ h1 {
   margin-left: -300px !important;
 }
 .col-3 {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: -25px;
 }
 .content {
@@ -186,7 +187,7 @@ h1 {
 
 .hero {
   margin-left: -50px;
-  margin-top: -400px;
+  margin-top: -500px;
   vertical-align: top;
   display: inline-block;
 }
@@ -208,6 +209,7 @@ p {
 h3 {
   color: white;
 }
+
 .btn-projects {
   color: white;
   box-shadow: 5px 5px 5px black;

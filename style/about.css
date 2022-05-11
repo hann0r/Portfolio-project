@@ -198,11 +198,11 @@ img {
   margin-left: 390px;
   margin-top: -500px;
 }
-.col-sm-3-nhcc {
+.col-sm-3-malawi {
   margin-left: 120px;
   margin-top: -510px;
 }
-.col-sm-4-nhcc {
+.col-sm-4-malawi {
   margin-left: 390px;
   margin-top: -510px;
 }
@@ -460,5 +460,80 @@ img {
   }
   .copyright {
     margin-left: 30px;
+  }
+  .resume-title {
+    margin-left: 25px;
+    font-size: 60px;
+  }
+  .col-sm-2-resume {
+    margin-left: -270px !important;
+    display: flex !important;
+  }
+  .new-hope-title {
+    font-size: 12px;
+    display: flex !important;
+    margin-left: -610px;
+    margin-top: 20px;
+  }
+  .nhcc-logo {
+    max-width: 70px;
+  }
+  .nhcc-title-text {
+    margin-top: 50px;
+  }
+  .new-hope-text {
+    font-size: 12px;
+    margin-left: -5px;
+    max-width: 300px;
+    margin-top: -15px;
+  }
+  .fb-logo-nhcc {
+    margin-left: -30px;
+    margin-top: -120px;
+  }
+  .insta-logo-nhcc {
+    margin-top: -120px;
+  }
+  .nhcc-button {
+    margin-left: -45px;
+    margin-top: -1000px;
+  }
+  .ics-title {
+    font-size: 12px;
+    margin-left: -590px;
+    margin-top: 500px;
+  }
+  .ics-logo {
+    max-width: 80px;
+  }
+  .malawi-text {
+    margin-top: -20px;
+    font-size: 12px;
+    margin-left: -5px;
+    max-width: 300px;
+  }
+  .ics-button {
+    margin-left: -40px;
+    margin-top: -1045px;
+    margin-bottom: 950px;
+  }
+  .copyright-about {
+    margin-left: 2px;
+  }
+  .col-sm-3 {
+    margin-left: -600px;
+    margin-top: 80px;
+  }
+  .col-sm-4 {
+    margin-left: -600px;
+    margin-top: 10px;
+  }
+  .col-sm-3-malawi {
+    margin-left: -600px;
+    margin-top: 70px;
+  }
+  .col-sm-4-malawi {
+    margin-left: -600px;
+    margin-top: 10px;
   }
 }

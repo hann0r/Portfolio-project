@@ -222,6 +222,7 @@ h3 {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .copyright {
   color: #fff;
   font-size: 12px;
@@ -230,7 +231,7 @@ h3 {
   margin-bottom: -700px !important;
 }
 
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 600px) {
   .col-12 {
     margin-left: -45px !important;
     margin-bottom: 80px !important;

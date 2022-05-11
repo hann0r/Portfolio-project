@@ -87,7 +87,7 @@ img {
 }
 .about-title {
   font-size: 70px;
-  margin-left: 590px;
+  margin-left: 650px;
 }
 .resume-title {
   font-size: 70px;
@@ -258,6 +258,25 @@ img {
   margin-left: -10px;
   font-family: "Montserrat", sans-serif;
 }
+
+.btn-projects-resume {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px black;
+  border-color: black;
+  border-radius: 20px;
+  margin-top: 35px;
+  padding: 15px;
+  margin-left: 10px;
+}
+.resume-text {
+  margin-left: 350px;
+}
+.col-sm-2-resume {
+  margin-top: -40px;
+  margin-bottom: -70px;
+}
 .view-projects img {
   max-width: 500px;
   margin-left: 500px;
@@ -329,12 +348,12 @@ img {
 
   margin-bottom: 20px;
 }
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 600px) {
   .about-title {
-    margin-left: 35px;
+    margin-left: 60px;
   }
   .hobbies-title {
-    margin-left: 75px;
+    margin-left: 50px;
     margin-top: 40px;
     margin-bottom: 15px;
   }
@@ -382,7 +401,7 @@ img {
     margin-bottom: -20px !important;
   }
   .bordered-text {
-    margin-left: 12px;
+    margin-left: 5px;
     text-align: center;
     padding: 5px;
     font-size: 13px;

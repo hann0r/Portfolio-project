@@ -38,6 +38,19 @@ p {
   margin-left: 510px;
   padding: 15px;
 }
+.bordered-text-contact {
+  text-align: center;
+  background-color: #282323;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 500px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 510px;
+  padding: 15px;
+}
 .project-title {
   margin-left: 610px;
   font-size: 70px;
@@ -362,35 +375,29 @@ img {
     font-size: 60px;
   }
   .contact-title {
-    margin-left: 35px;
+    margin-left: 40px;
     font-size: 60px;
   }
   .btn-projects-contact {
     margin-left: -1px;
+    margin-bottom: 20px;
   }
   .logo-contact {
     margin-left: 7px;
   }
-  .linked-logo {
-    margin-left: -60px !important;
-    margin-top: 50px !important;
+  .bordered-text-contact {
+    margin-left: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 2;
+    max-width: 330px;
   }
-  .insta-logo {
-    margin-left: -745px !important;
-    margin-right: -190px !important;
-    margin-top: 50px !important;
+  .contact-icons {
+    margin-left: 5px;
+    margin-top: 20px;
+    max-width: 330px;
   }
-  .fb-logo {
-    margin-left: -70px;
-    margin-right: 70px !important;
-    margin-top: 50px !important;
-  }
-  .git-logo {
-    margin-left: -70px !important;
-    margin-right: 60px !important;
-    margin-top: 50px !important;
-  }
-
   p {
     margin-left: 35px;
     text-align: center;

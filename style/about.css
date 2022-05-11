@@ -483,7 +483,7 @@ img {
   }
   .new-hope-text {
     font-size: 12px;
-    margin-left: 4px;
+    margin-left: 0px;
     max-width: 340px;
     margin-top: -15px;
   }
@@ -509,7 +509,7 @@ img {
   .malawi-text {
     margin-top: -20px;
     font-size: 12px;
-    margin-left: 4px;
+    margin-left: 0px;
     max-width: 340px;
   }
   .ics-button {

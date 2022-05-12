@@ -232,6 +232,9 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    max-width: 600px !important;
+  }
   .col-12 {
     margin-left: -45px !important;
     margin-bottom: 80px !important;

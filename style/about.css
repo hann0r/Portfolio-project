@@ -161,6 +161,27 @@ img {
 .class-pic {
   border-radius: 50px;
 }
+.teachers {
+  border-radius: 50px;
+}
+.class-read {
+  border-radius: 50px;
+}
+.art-project {
+  border-radius: 50px;
+}
+.malawi-airport {
+  border-radius: 50px;
+}
+.nursery-game {
+  border-radius: 50px;
+}
+.nursery-staff {
+  border-radius: 50px;
+}
+.host-family {
+  border-radius: 50px;
+}
 .malawi-text {
   color: #fff;
   text-align: left;
@@ -190,8 +211,8 @@ img {
   margin-top: -20px;
 }
 .ics-button {
-  margin-left: 120px;
-  margin-top: -90px;
+  margin-left: 250px;
+  margin-top: -100px;
 }
 .col-sm-3 {
   margin-top: -500px;
@@ -203,11 +224,11 @@ img {
 }
 .col-sm-3-malawi {
   margin-left: 120px;
-  margin-top: -510px;
+  margin-top: -480px;
 }
 .col-sm-4-malawi {
   margin-left: 390px;
-  margin-top: -510px;
+  margin-top: -480px;
 }
 .column {
   float: left;
@@ -517,7 +538,7 @@ img {
   }
   .ics-button {
     margin-left: -10px;
-    margin-top: -1045px;
+    margin-top: -730px;
     margin-bottom: 950px;
   }
   .copyright-about {
@@ -538,5 +559,6 @@ img {
   .col-sm-4-malawi {
     margin-left: -570px;
     margin-top: 10px;
+    margin-bottom: -150px;
   }
 }

@@ -158,6 +158,9 @@ img {
   margin: 0 auto;
   margin-bottom: -40px;
 }
+.class-pic {
+  border-radius: 50px;
+}
 .malawi-text {
   color: #fff;
   text-align: left;

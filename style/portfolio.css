@@ -1,9 +1,16 @@
 body {
   background-color: #1b1b1b;
-  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+main {
+  background-color: #1b1b1b;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -232,8 +239,8 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    max-width: 600px !important;
+  main {
+    overflow: hidden;
   }
   .col-12 {
     margin-left: -45px !important;

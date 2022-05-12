@@ -19,6 +19,21 @@ h1 {
   margin-top: 90px;
   margin-bottom: 50px;
 }
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  display: inline-block;
+  background: -webkit-linear-gradient(#00ccff, #ac97ea, #d400d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  margin-left: 650px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
 p {
   font-family: "Montserrat", sans-serif;
 }
